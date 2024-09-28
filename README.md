@@ -1,6 +1,11 @@
 # DINPUT key switcher
 Who has never played _Rayman2_ on PC and has didn't wanted to change the keyboard controls? Some videogames (especially old ones) did not allow remap the keymap in any way, and it's not always easy to hack them to change controls. The aforementioned video game never saw a way to change the keyboard controls... before...
 
+## 2024 Hook Version
+Please check the **2024 Hook Version** folder for a new dll hook implementation of this tool using .txt files for mappings
+
+## Classic version
+
 With this application you can generate a "hacked" Dinput.dll  that you only have to copy to the directory where you have your game EXE, and it will change your keyboard controls.
 
 ![screenshot](https://4.bp.blogspot.com/-5tnrcWsauvM/WQdcV7eAm8I/AAAAAAAAAkE/xhDeDt9AjpkAJ-6M-FmGdL37Z8oI-ctYACLcB/s1600/1.png)
@@ -8,10 +13,7 @@ With this application you can generate a "hacked" Dinput.dll  that you only have
 ## How does it works?
 This program injects customized assembly code into a special DINPUT.DLL/DINPUT8.DLL file.
 
-Copying this file into the EXE directory makes the executable use this DLL instead of the default C:\Windows\... DLL.
-
-## Requirements
-This tool works with the 64bit version of DINPUT.DLL and DINPUT8.DLL and doesn't work on 32bit machines.
+Copying this .DLL file into the EXE directory makes the executable use this DLL instead of the default C:\Windows\... DirectInput DLL.
 
 ## License
 DINPUT.DLL and DINPUT8.DLL are property of Microsoft.

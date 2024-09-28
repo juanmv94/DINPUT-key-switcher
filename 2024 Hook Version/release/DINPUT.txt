@@ -1,0 +1,15 @@
+This is the key definition file
+-------------------------------------
+
+A -> C			Jump key
+A -> LSHIFT		Alternative Jump key
+SPACE -> RSHIFT		Fire key
+NULL -> SPACE		Disable SPACE key
+
+Direction keys:
+UP -> W
+LEFT -> A
+DOWN -> S
+RIGHT -> D
+We are not disabling directional keys, so both
+directional and WASD keys can be used
